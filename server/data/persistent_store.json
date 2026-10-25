@@ -433,7 +433,10 @@
       "showtime": "6:00 PM",
       "tickets": {
         "balcony": {
-          "bookedSeats": [],
+          "bookedSeats": [
+            "B1",
+            "B2"
+          ],
           "price": 250
         },
         "middle": {
@@ -636,6 +639,39 @@
   ],
   "bookings": [
     {
+      "_id": "bk-1792923731267",
+      "bookingId": "BK-417301",
+      "userEmail": "gfrrdrdr@gmail.com",
+      "showId": "SH-103",
+      "ticketsData": {
+        "seats": [
+          "B1",
+          "B2"
+        ],
+        "tier": "Balcony",
+        "seatsByTier": {
+          "balcony": [
+            "B1",
+            "B2"
+          ],
+          "middle": [],
+          "lower": []
+        },
+        "theatreName": "Srinivasa",
+        "movieName": "Og",
+        "showDate": "Sep 25, 2025",
+        "showtime": "6:00 PM",
+        "seatCount": 2,
+        "totalPrice": 525,
+        "poster": "/posters/og.jpg",
+        "paymentMethod": "UPI"
+      },
+      "totalAmount": 525,
+      "paymentStatus": "Completed",
+      "status": "Confirmed",
+      "createdAt": "2026-10-25T10:22:11.267Z"
+    },
+    {
       "_id": "bk-1792766883375",
       "bookingId": "BK-603876",
       "userEmail": "tanishqagrawal1103@gmail.com",
@@ -788,6 +824,12 @@
       "username": "tanishqagrawal1103",
       "email": "tanishqagrawal1103@gmail.com",
       "role": "user"
+    },
+    {
+      "_id": "usr-1792923675377",
+      "username": "gfrrdrdr",
+      "email": "gfrrdrdr@gmail.com",
+      "role": "user"
     }
   ],
   "admins": [
@@ -801,6 +843,12 @@
       "_id": "adm-1792766708386",
       "username": "admin",
       "email": "tanishqagrawal68@gmail.com",
+      "role": "admin"
+    },
+    {
+      "_id": "adm-1792923828665",
+      "username": "admin",
+      "email": "gtfrfr@gmail.com",
       "role": "admin"
     }
   ]
